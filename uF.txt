@@ -4,7 +4,6 @@
 ! Author: uBlockO
 ! Expires: 3 days
 
-||addthis.com^$important
 www.google.com###prm-pt, .b2hzT, .exp-outline, [id^="ed_"], [id^="eob_"], [title*="Share"], #gws-output-pages-elements-homepage_additional_languages__als, #wmxmsg, #prm, .uU7dJb,[class$="middle-slot-promo"], .O3yKUb
 ||youtube.com^*/annotations_module.js
 ||youtube.com^*/endscreen.js
@@ -13,7 +12,6 @@ www.youtube.com##.ytd-rich-section-renderer, #comments-button, #chat, #watch-sid
 x.com##[aria-label$="trending now" i],aside[aria-label="Get Verified"], a[data-testid="AppTabBar_Explore_Link"][href="/explore"], aside[class][aria-label^="Subscribe to Premium"], aside[class][aria-label="Expiring soon!"], div[class][data-testid="inlinePrompt"], div[class^="css-1dbjc4n r-g2wdr4 r-14wv3jr"]:has(aside[class][aria-label="Who to follow"]), div[style="z-index: 1;"]:has(div[role="dialog"] a[href="/i/premium_sign_up"][style]), div.r-1bro5k0:has(a[href^="/i/connect_people?"])
 www.amazon.*###universal-detail-ilm,.a-spacing-none.a-section > .sg-row,.AdHolder,#percolate-ui-ilm_div > .celwidget
 myanimelist.net##.btn-mal-service, .mxj, .footer-recommended, .text-banner-tag
-||onetrust.com^$important
 ||cookielaw.org^$important
 ||ads*$1p
 ||analytics.$1p
@@ -32,3 +30,5 @@ fsicomics.com##+js(rmnt, script, MutationObserver, includes, startMutationObserv
 /lib/volume-booster.js
 flickzone.org,sflix.gd##div[class^="tg-"], div[id*="tg"]
 cloudorchestranova.com##+js(set, CONFIG.autoplay, false)
+flickzone.org##^responseheader(location)
+sflix.gd##.social-sharing:style(visibility:hidden !important)
